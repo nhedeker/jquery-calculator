@@ -59,7 +59,6 @@ var evalCalc = function(){
    }
    catch(err){
       result = setError();
-
    }
    if (result === "Infinity" || result === "-Infinity"){
       result = setError();
